@@ -14,7 +14,7 @@ function InputControlVisProvider(Private) {
 
   // return the visType object, which kibana will use to display and configure new Vis object of this type.
   return VisFactory.createBaseVisualization({
-    name: 'input_control_vis',
+    name: 'or_input_control_vis',
     title: 'Controls',
     image,
     description: 'Create interactive controls for easy dashboard manipulation.',
